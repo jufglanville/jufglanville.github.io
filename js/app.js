@@ -176,7 +176,7 @@ const scene1 = new ScrollMagic.Scene({
     triggerElement: ".trigger-1",
     triggerHook: "0"
 })
-.addIndicator()
+.addIndicators()
 .setPin(".main-background-text")
 .setTween(tl)
 .addTo(controller);
@@ -185,7 +185,7 @@ const scene2 = new ScrollMagic.Scene({
     triggerElement: ".trigger-2",
     triggerHook: "0"
 })
-.addIndicator()
+.addIndicators()
 .setTween(tl2)
 .addTo(controller);
 
@@ -193,7 +193,7 @@ const scene3 = new ScrollMagic.Scene({
     triggerElement: ".trigger-3",
     triggerHook: "0"
 })
-.addIndicator()
+.addIndicators()
 .setTween(tl3)
 .addTo(controller);
 
@@ -201,7 +201,7 @@ const scene4 = new ScrollMagic.Scene({
     triggerElement: ".trigger-4",
     triggerHook: "0"
 })
-.addIndicator()
+.addIndicators()
 .setTween(tl4)
 .addTo(controller);
 
@@ -209,7 +209,7 @@ const scene5 = new ScrollMagic.Scene({
     triggerElement: ".trigger-5",
     triggerHook: "0"
 })
-.addIndicator()
+.addIndicators()
 .setTween(tl5)
 .addTo(controller);
 
@@ -218,7 +218,7 @@ const timelineScene = new ScrollMagic.Scene({
     triggerHook: "0",
     duration: "90%"
 })
-.addIndicator()
+.addIndicators()
 .setPin(".trigger-date")
 .setTween(td1)
 .addTo(controller);
