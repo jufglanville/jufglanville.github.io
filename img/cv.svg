@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176px" height="234px" viewBox="0 0 176 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>cv</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cv" stroke="#FFFFFF" stroke-width="10">
+            <path d="M171,40.0710678 L135.928932,5 L29,5 C15.745166,5 5,15.745166 5,29 L5,205 C5,218.254834 15.745166,229 29,229 L147,229 C160.254834,229 171,218.254834 171,205 L171,40.0710678 Z" id="Rectangle"></path>
+            <path d="M136.550696,5.62176405 C136.209444,5.98050045 136,6.46579108 136,7 L136,42 C136,45.8659932 139.134007,49 143,49 L164,49 C167.865993,49 171,45.8659932 171,42 L171,40.0710678 L136.550696,5.62176405 Z" id="Rectangle"></path>
+            <rect id="Rectangle" x="44" y="86" width="89" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-Copy-10" x="44" y="114" width="89" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-Copy-11" x="44" y="142" width="89" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-Copy-12" x="44" y="170" width="89" height="1" rx="0.5"></rect>
+        </g>
+    </g>
+</svg>

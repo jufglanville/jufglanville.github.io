@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="247px" height="192px" viewBox="0 0 247 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>Group 2 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="FZLTXHK--GBK1-0, Lantinghei SC" font-size="35" font-weight="300" letter-spacing="-2.8" fill="#FFFFFF">
+            <tspan x="19.0078125" y="212">WEB DESIGN</tspan>
+        </text>
+        <filter x="-3.5%" y="-11.2%" width="107.0%" height="130.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="REMARK" font-size="150" font-weight="normal" letter-spacing="-10">
+            <tspan x="11.1" y="147">JG</tspan>
+        </text>
+        <filter x="-5.0%" y="-6.3%" width="110.0%" height="115.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-7.8%" y="-10.6%" width="115.7%" height="123.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.467957823 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2-Copy" transform="translate(0.000000, -28.000000)">
+            <g id="Web-Design" stroke="#FFFFFF">
+                <use fill="#FFFFFF" fill-opacity="1" stroke-opacity="1" filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use fill="#FFFFFF" fill-opacity="1" stroke-opacity="1" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <g id="JG-Copy-3" filter="url(#filter-4)">
+                <use stroke="#FFFFFF" fill="#FFFFFF" fill-opacity="1" stroke-width="1" stroke-opacity="1" filter="url(#filter-5)" xlink:href="#text-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#text-3"></use>
+                <use stroke="#FFFFFF" stroke-width="1" xlink:href="#text-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

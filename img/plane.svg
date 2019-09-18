@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="493px" height="293px" viewBox="0 0 493 293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>plane</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 C152.666667,0 269.333333,0 350,0 C422.666667,7.33333333 459,26.6666667 459,58 L0.195426195,58 L0,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="plane">
+            <path d="M55.661064,116 L468.776252,116 C480.400531,116 490.275649,124.504328 492,136 L492,136 L492.784557,143.217929 C494.873338,162.434708 480.988351,179.706276 461.771573,181.795056 C460.515505,181.931585 459.252967,182 457.989501,182 L78.7314315,182 C67.02907,182 56.1009735,176.15146 49.6096712,166.414507 L38,149 C31.4973758,139.246064 34.133085,126.067518 43.8870213,119.564893 C47.3737567,117.240403 51.4705297,116 55.661064,116 Z" id="Rectangle" fill="#E5E5E5"></path>
+            <g id="Rectangle" transform="translate(33.000000, 78.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M400,29 L459.357143,29 C463.516532,33.0159622 463.632803,39.6433941 459.616841,43.8027835 C457.644067,45.8460132 454.92578,47 452.0856,47 L400,47 C395.029437,47 391,42.9705627 391,38 C391,33.0294373 395.029437,29 400,29 Z" fill="#2C7EB9" mask="url(#mask-2)"></path>
+            </g>
+            <polygon id="Rectangle" fill="#FFFFFF" points="0 1.0946799e-13 39 0 143 136 33 136"></polygon>
+            <polygon id="Rectangle" fill="#B5B5B5" points="190 149 313 149 154 293 82 293"></polygon>
+            <circle id="Oval" fill="#2C7EB9" cx="183" cy="116" r="9"></circle>
+            <circle id="Oval-Copy-14" fill="#2C7EB9" cx="233" cy="116" r="9"></circle>
+            <circle id="Oval-Copy-16" fill="#2C7EB9" cx="283" cy="116" r="9"></circle>
+            <circle id="Oval-Copy-18" fill="#2C7EB9" cx="333" cy="116" r="9"></circle>
+            <circle id="Oval-Copy-17" fill="#2C7EB9" cx="383" cy="116" r="9"></circle>
+        </g>
+    </g>
+</svg>

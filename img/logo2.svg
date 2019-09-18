@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="258px" height="258px" viewBox="0 0 258 258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-17.825%" x2="50%" y2="123.790625%" id="linearGradient-1">
+            <stop stop-color="#FA709A" offset="0%"></stop>
+            <stop stop-color="#FEE140" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="250" height="250" rx="11"></rect>
+        <filter x="-2.8%" y="-2.0%" width="105.6%" height="105.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-4" font-family="FZLTXHK--GBK1-0, Lantinghei SC" font-size="35" font-weight="300" letter-spacing="-2.8" fill="#FFFFFF">
+            <tspan x="19.0078125" y="212">WEB DESIGN</tspan>
+        </text>
+        <filter x="-3.3%" y="-10.2%" width="106.5%" height="128.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-6" font-family="REMARK" font-size="150" font-weight="normal" letter-spacing="-10">
+            <tspan x="11.1" y="147">JG</tspan>
+        </text>
+        <filter x="-4.8%" y="-6.0%" width="109.6%" height="114.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-7.6%" y="-10.3%" width="115.2%" height="123.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.467957823 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(4.000000, 2.000000)">
+            <g id="Rectangle-Copy-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="Web-Design" fill="#FFFFFF" fill-opacity="1">
+                <use filter="url(#filter-5)" xlink:href="#text-4"></use>
+                <use xlink:href="#text-4"></use>
+            </g>
+            <g id="JG-Copy-3" filter="url(#filter-7)" fill="#FFFFFF">
+                <use fill-opacity="1" filter="url(#filter-8)" xlink:href="#text-6"></use>
+                <use fill-rule="evenodd" xlink:href="#text-6"></use>
+                <use fill-opacity="1" xlink:href="#text-6"></use>
+            </g>
+        </g>
+    </g>
+</svg>

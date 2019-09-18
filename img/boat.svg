@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="929px" height="850px" viewBox="0 0 929 850" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>boat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="boat">
+            <rect id="Rectangle" fill="#333333" x="419" y="0" width="52" height="775" rx="26"></rect>
+            <path d="M498,90.7594153 L498,673 L809.946249,673 L498,90.7594153 Z" id="Rectangle" stroke="#333333" stroke-width="30" fill="#FF4C4A"></path>
+            <path d="M131,204.705968 L131,667 L378.93423,667 L131,204.705968 Z" id="Rectangle-Copy-8" stroke="#333333" stroke-width="30" fill="#FF4C4A" transform="translate(260.000000, 413.500000) scale(-1, 1) translate(-260.000000, -413.500000) "></path>
+            <path d="M15.2416757,650 C19.3609269,775.217559 76.1820346,835 189.063017,835 C289.231724,835 289.231724,835 392.081056,835 C584.364589,835 584.364589,835 759.131198,835 C811.417395,835 849.491408,818.936794 874.763072,786.950886 C898.756988,756.582203 911.95009,711.003608 913.779428,650 L15.2416757,650 Z" id="Rectangle" stroke="#333333" stroke-width="30" fill="#8ED7BF"></path>
+        </g>
+    </g>
+</svg>

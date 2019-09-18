@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="134px" viewBox="0 0 204 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email" stroke="#FFFFFF" stroke-width="10">
+            <rect id="Rectangle" x="5" y="5" width="194" height="124" rx="8"></rect>
+            <path d="M105.525815,6.30094622 L12.1813465,77.8832483 L12.5513105,83 L194.813576,83 L194.956414,74.881851 L105.525815,6.30094622 Z" id="Triangle" transform="translate(103.500000, 44.000000) rotate(180.000000) translate(-103.500000, -44.000000) "></path>
+            <path d="M193.875,123.25 L123.943435,69.6575856" id="Line" stroke-linecap="square"></path>
+            <path d="M82.9315651,123.592414 L13,70" id="Line-Copy" stroke-linecap="square" transform="translate(47.965783, 96.796207) scale(-1, 1) translate(-47.965783, -96.796207) "></path>
+        </g>
+    </g>
+</svg>
