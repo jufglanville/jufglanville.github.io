@@ -1,11 +1,17 @@
 let width = screen.width;
 let height = screen.height;
+// let docHeight = $(document).height();
+
 let docHeight = $(document).height();
-let homeAnchor = 10;
-let aboutAnchor = docHeight * 0.1;
-let projectsAnchor = docHeight * 0.2;
-let timelineAnchor = docHeight * 0.3;
-let contactAnchor = docHeight;
+let winHeight = $(window).height();
+
+let scrollVal = docHeight - winHeight;
+
+let homeAnchor = scrollVal * 0.01;
+let aboutAnchor = scrollVal * 0.15;
+let projectsAnchor = scrollVal * 0.3;
+let timelineAnchor = scrollVal * 0.45;
+let contactAnchor = scrollVal;
 
 // Nav Bar Functions
 
@@ -245,33 +251,36 @@ $(document).ready(function() {
 });
 
 
+// $(document).ready(function() {
 
+//     $(window).scroll(function(e){
+//         var scrollTop = $(window).scrollTop();
+//         var docHeight = $(document).height();
+//         var winHeight = $(window).height();
+//         var scrollPercent = (scrollTop) / (docHeight - winHeight);
+//         var scrollPercentRounded = Math.round(scrollPercent*100);
 
-$(document).ready(function() {
+//         console.log('scrollTop : ' + scrollTop);
+//         console.log('docHeight : ' + docHeight);
+//         console.log('winHeight : ' + winHeight);
+//         console.log('scrollPercent : ' + scrollPercent);
+//         console.log('scrollPercentRounded : ' + scrollPercentRounded);
+//         $('#scrollPercentLabel>span').html(scrollPercentRounded);
+//         repositionLabel();
+//     });
 
-    $(window).scroll(function(e){
-        var scrollTop = $(window).scrollTop();
-        var docHeight = $(document).height();
-        var winHeight = $(window).height();
-        var scrollPercent = (scrollTop) / (docHeight - winHeight);
-        var scrollPercentRounded = Math.round(scrollPercent*100);
+//     $(window).resize(function(){
+//         repositionLabel();
+//     });
 
-        $('#scrollPercentLabel>span').html(scrollPercentRounded);
-        repositionLabel();
-    });
+//     function repositionLabel() {
+//         $('#scrollPercentLabel').css({
+//             position:'fixed',
+//             left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
+//             top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
+//         });
+//     }
 
-    $(window).resize(function(){
-        repositionLabel();
-    });
+//     repositionLabel();
 
-    function repositionLabel() {
-        $('#scrollPercentLabel').css({
-            position:'fixed',
-            left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
-            top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
-        });
-    }
-
-    repositionLabel();
-
-});
+// });
