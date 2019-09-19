@@ -214,7 +214,7 @@ body,
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .profile-img {
     height: 30%;
