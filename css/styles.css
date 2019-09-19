@@ -229,6 +229,7 @@ body,
 }
 .skills {
     width: 20%;
+    max-width: 90px;
 }
 .left,
 .right {
@@ -341,7 +342,7 @@ a, a:visited, a:hover, a:active {
 .timeline-img-container {
     position: relative;
     width: 90%;
-    max-width: 500px;
+    max-width: 400px;
     height: 100%;
     margin: auto;
 }

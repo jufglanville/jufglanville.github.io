@@ -238,8 +238,8 @@ function updatePercentage() {
 
 $(document).ready(function() {
     $('.jR3DCarouselGalleryCustom').jR3DCarousel({
-        width: 700,
-        height: 700,
+        width: 550,
+        height: 550,
         slideLayout: 'contain',
         animation: 'slide3D',
         animationCurve: 'ease',
