@@ -2,16 +2,16 @@ let width = screen.width;
 let height = screen.height;
 // let docHeight = $(document).height();
 
-let docHeight = $(document).height();
-let winHeight = $(window).height();
+// let docHeight = $(document).height();
+// let winHeight = $(window).height();
 
-let scrollVal = docHeight - winHeight;
+// let scrollVal = docHeight - winHeight;
 
-let homeAnchor = scrollVal * 0.01;
-let aboutAnchor = scrollVal * 0.15;
-let projectsAnchor = scrollVal * 0.3;
-let timelineAnchor = scrollVal * 0.45;
-let contactAnchor = scrollVal;
+let homeAnchor = 0.01;
+let aboutAnchor = 0.15;
+let projectsAnchor = 0.3;
+let timelineAnchor = 0.45;
+let contactAnchor = 100;
 
 // Nav Bar Functions
 
@@ -24,9 +24,14 @@ function closeNav() {
 }
 
 function scrollTo(anchor) {
+    let docHeight = $(document).height();
+    let winHeight = $(window).height();
+    let scrollVal = docHeight - winHeight;
+
+    let linkPosition = scrollVal * anchor
     closeNav(),
     $('html, body').animate({
-        scrollTop: anchor
+        scrollTop: linkPosition
     }, 100);
 }
 
