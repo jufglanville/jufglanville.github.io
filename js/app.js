@@ -24,7 +24,8 @@ function closeNav() {
 }
 
 function scrollTo(anchor) {
-    let docHeight = $(document).height();
+    // let docHeight = $(document).height();
+    let docHeight = document.documentElement.scrollHeight;
     let winHeight = $(window).height();
     let scrollVal = docHeight - winHeight;
 
