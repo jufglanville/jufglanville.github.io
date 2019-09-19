@@ -180,8 +180,8 @@ body,
     top: 0;
     height: 100vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 60px 10% 90px;
 }
 
