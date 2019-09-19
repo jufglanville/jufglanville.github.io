@@ -78,8 +78,8 @@ tl.from('.logo', 1.5, {opacity: 0, scale: 0}, 0);
 tl2.from('#about', 0.5, {opacity: 0, x: width});
 tl2.from('.profile-img', 1, {opacity: 0, x: -width}, 0.5);
 tl2.from('.intro-text', 1, {opacity: 0, x: width}, 0.5);
-// tl2.from('.left', 1.5, {opacity: 0, y: width}, 0.5);
-// tl2.from('.right', 1.5, {opacity: 0, y: -width}, 0.5);
+tl2.from('.left', 1.5, {opacity: 0, y: width}, 0.5);
+tl2.from('.right', 1.5, {opacity: 0, y: -width}, 0.5);
 
 // Projects Page
 tl3.from('#projects', 1, {opacity: 0, x: -width});

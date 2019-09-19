@@ -223,6 +223,9 @@ body,
     border: 4px solid white;
 }
 .skill-list {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
