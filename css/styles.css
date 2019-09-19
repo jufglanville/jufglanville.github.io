@@ -44,7 +44,7 @@ footer{
     height: 80px;
     animation: footer 1s infinite linear;
 }
-@-webkit-keyframes footer{
+@keyframes footer{
     0%{
         transform: translate(0, 0);
     }
@@ -71,16 +71,11 @@ footer{
     margin: auto 5px;
     transition: all 0.5s;
 }
-.logo-container:hover {
-    transform: scale(1.5);
-}
+
 .logo {
     width: 60px;
 }
 
-
-
-/* The sidepanel menu */
 .sidepanel {
     height: 100vh;
     width: 0;
@@ -94,12 +89,10 @@ footer{
     transition: 0.5s;
 }
   
-/* The sidepanel links */
 .sidepanel a {
     padding: 8px;
     text-decoration: none;
     font-size: 25px;
-   
     display: block;
     transition: 0.3s;
     font-family: 'Source Code Pro', monospace;
@@ -111,12 +104,12 @@ footer{
     width: 70px;
 }
   
-/* When you mouse over the navigation links, change their color */
-.sidepanel a:hover {
-    transform: scale(1.2);
+.logo-container:hover,
+.sidepanel a:hover,
+.openbtn:hover {
+    transform: scale(1.5);
 }
   
-/* Position and style the close button (top right corner) */
 .sidepanel .closebtn {
     position: absolute;
     top: 0;
@@ -125,7 +118,6 @@ footer{
     margin-left: 50px;
 }
   
-/* Style the button that is used to open the sidepanel */
 .openbtn {
     font-size: 30px;
     cursor: pointer;
@@ -135,9 +127,7 @@ footer{
     border: none;
     transition: all 0.5s;
 }
-.openbtn:hover {
-      transform: scale(1.5);
-}
+
 .openbtn:focus {
     outline: none;
 }
@@ -145,18 +135,18 @@ footer{
 /* ------------ End of Navbar ------------- */
 /* ---------------------------------------- */
 
+
+
+/* ---------------------------------------- */
+/* ----------- Main Background ------------ */
+/* ---------------------------------------- */
 body {
-    height: calc(100vh + 10px);
-    width: 100%;
     background-image: url(../img/code.gif);
     background-repeat: repeat;
     background-size: cover;
 }
 
-/* ---------------------------------------- */
-/* ----------- Main Background ------------ */
-/* ---------------------------------------- */
-
+body,
 .main-background {
     height: calc(100vh + 10px);
     width: 100%;
@@ -177,43 +167,72 @@ body {
 /* -------- End of Main Background -------- */
 /* ---------------------------------------- */
 
-
 /* ---------------------------------------- */
-/* ---------- About Me Section ------------ */
+/* -------- Section Backgrounds ----------- */
 /* ---------------------------------------- */
 
-#about {
+#about,
+#projects,
+#timeline,
+#contact {
     position: fixed;
-    z-index: 1;
     left: 0;
     top: 0;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 70px 15px;
+    padding: 60px 10% 90px;
+}
+
+#about {
+    z-index: 1;
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
+#projects {
+    z-index: 2;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+#timeline {
+    z-index: 3;
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+}
+#contact {
+    z-index: 4;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+
+/* ---------------------------------------- */
+/* ---------- About Me Section ------------ */
+/* ---------------------------------------- */
+
+.about-text-container,
+.projects-container,
+.timeline-container,
+.contact-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .profile-img {
-    width: 150px;
+    height: 30%;
     margin: 0 auto;
     border-radius: 50%;
     border: 4px solid white;
 }
-
-
-/* Skills Icons */
 .skill-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .skills {
-    height: 50px;
+    width: 20%;
 }
 .left,
 .right {
-    margin: 10px;
+    margin: 5% 2%;
 }
 
 /* ---------------------------------------- */
@@ -224,28 +243,6 @@ body {
 /* ----------- Project Section ------------ */
 /* ---------------------------------------- */
 
-#projects {
-    position: fixed;
-    z-index: 2;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 40px 15px 90px;
-    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
-}
-
-#projects p {
-    margin: 10px;
-}
-
-.project-collection {
-    margin: auto 0;
-}
-
-/* Carousel */
 .jR3DCarouselGalleryCustom {
     margin: auto;			
 }
@@ -260,41 +257,39 @@ body {
 .jR3DCarouselGalleryCustom a{
       text-decoration: none;			
 }
-
 /* Project Tiles */
 .project-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
+.project-info h2 {
+    margin: 5px 0;
+}
 .project-img {
     opacity: 1;
     transition:  0.5s ease;
     backface-visibility: hidden;
 }
-
 .middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
+    display: flex;
     top: 40%;
     left: 50%;
-    width: 80%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    height: 85%;
+    width: 95%;
+    transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
     text-align: center;
 }
-
-
-.project-container:hover .project-img {
+.tile-container:hover .project-img {
     -webkit-filter: brightness(30%);
 }
-
-.project-container:hover .middle {
+.tile-container:hover .middle {
     opacity: 1;
 }
-
 .project-info button {
     border: 1px solid #006caf;
     border-radius: 5px;
@@ -304,13 +299,12 @@ body {
     color: white;
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 15px 10px 0 10px;
+    margin: 0 5%;
     width: 70px;
 }
 .project-info button:hover {
     background-color: #51bafc;
 }
-
 a, a:visited, a:hover, a:active {
     color: white;
   }
@@ -323,18 +317,7 @@ a, a:visited, a:hover, a:active {
 /* ----------- Timeline Section ----------- */
 /* ---------------------------------------- */
 
-#timeline {
-    position: fixed;
-    z-index: 3;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 40px 15px;
-    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
-}
+
 
 /*------ Date spinner ------*/
 .date {
@@ -342,23 +325,15 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
     font-size: 5em;
 }
-
 .date p {
     margin: 20px 0;
     z-index: 5;
 }
-
-.date h3 {
-    margin-right: 10px;
-}
-
 .year-container {
     width: 82px;
 }
-
 .year {
     position: absolute;
-
 }
 /*-- End of Date spinner --*/
 
@@ -366,7 +341,8 @@ a, a:visited, a:hover, a:active {
 .timeline-img-container {
     position: relative;
     width: 90%;
-    height: calc(100vh - 260px);
+    max-width: 500px;
+    height: 100%;
     margin: auto;
 }
 
@@ -435,7 +411,7 @@ a, a:visited, a:hover, a:active {
     right: 20%;
     animation-delay: 1s;
 } 
-@-webkit-keyframes light-effect{
+@keyframes light-effect{
     0%{
         opacity: 0;
     }
@@ -522,22 +498,6 @@ a, a:visited, a:hover, a:active {
 /* ------------ Contact Section ----------- */
 /* ---------------------------------------- */
 
-#contact {
-    position: fixed;
-    z-index: 4;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 40px 10%;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-}
-#contact div {
-    margin: auto;
-}
-
 #email-2 img {
     width: 120px;
     transition: all 0.5s;
@@ -578,6 +538,12 @@ a, a:visited, a:hover, a:active {
 }
 h2 {
     font-family: 'Source Code Pro', monospace;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 4px #000000;
+    letter-spacing: 0.1em;
+    line-height: 130%;
+    margin-top: 0;
 }
 
 /* ---------------------------------------- */
@@ -667,7 +633,7 @@ h1 {
     text-shadow: -2px 0 #00a2ff;
     animation: effect 3s infinite linear;
 }
-@-webkit-keyframes effect{
+@keyframes effect{
     0%{
         clip:rect(55px,9999px, 56px,0);
     }
@@ -740,37 +706,29 @@ h1 {
 
 /* Tablet Screen */
 @media only screen and (min-width: 768px) {
-    .logo {
-        width: 70px;
-    }
     .main-background-text {
         font-size: 1.8em;
     }
-    #about {
-        padding-left: 15%;
-        padding-right: 15%;
+    .logo {
+        width: 70px;
     }
-    .left, .right {
-        margin: 30px;
+    h2 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
     }
     .skills {
-        height: 70px;
-    }
-    .profile-img {
-        width: 180px;
-    }
-    .intro-text, #projects, #timeline, #contact {
-        font-size: 1.2em;
-        line-height: 140%;
-    }
-    .timeline-img-container {
-        max-width: 450px;
+        width: 15%;
     }
 }
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
     .main-background-text {
+        font-size: 2em;
+    }
+    /* .main-background-text {
         font-size: 2em;
     }
     .skills {
@@ -788,7 +746,7 @@ h1 {
     #contact{
         padding-left: 20%;
         padding-right: 20%;
-    }
+    } */
 
 }
 

@@ -160,15 +160,15 @@
 			
 			function _createControls(){
 				if(_settings.rotationDirection == 'rtl'){
-					_previousButton = $( "<div class='previous controls' style='left: 0.1em;'>&lang;</div>");
-					_nextButton = $( "<div class='next controls' style='right: 0.1em;'>&rang;</div>");
+					_previousButton = $( "<div class='previous controls' style='left: -0.4em;'>&lang;</div>");
+					_nextButton = $( "<div class='next controls' style='right: -0.4em;'>&rang;</div>");
 				}else{
-					_previousButton = $( "<div class='previous controls' style='right: 0.1em;'>&rang;</div>");
-					_nextButton = $( "<div class='next controls' style='left: 0.1em;'>&lang;</div>");
+					_previousButton = $( "<div class='previous controls' style='right: -0.4em;'>&rang;</div>");
+					_nextButton = $( "<div class='next controls' style='left: -0.4em;'>&lang;</div>");
 				}
 				
 				_previousButton.add(_nextButton)
-							   .css({position: 'absolute', top:'50%', zIndex:1, transform: 'translateY(-50%)', fontSize: '4em', color: 'rgba(255, 255, 255, 0.97)', cursor:'pointer', userSelect: 'none'})
+							   .css({position: 'absolute', top:'45%', zIndex:1, transform: 'translateY(-50%)', fontSize: '4em', color: 'rgba(255, 255, 255, 0.97)', cursor:'pointer', userSelect: 'none'})
 							   .appendTo(_container)
 							   .hide();
 				

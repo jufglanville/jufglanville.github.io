@@ -182,7 +182,7 @@ const scene1 = new ScrollMagic.Scene({
     triggerElement: ".trigger-1",
     triggerHook: "0"
 })
-.addIndicators()
+// .addIndicators()
 .setPin(".main-background-text")
 .setTween(tl)
 .addTo(controller);
@@ -191,7 +191,7 @@ const scene2 = new ScrollMagic.Scene({
     triggerElement: ".trigger-2",
     triggerHook: "0"
 })
-.addIndicators()
+// .addIndicators()
 .setTween(tl2)
 .addTo(controller);
 
@@ -199,7 +199,7 @@ const scene3 = new ScrollMagic.Scene({
     triggerElement: ".trigger-3",
     triggerHook: "0"
 })
-.addIndicators()
+// .addIndicators()
 .setTween(tl3)
 .addTo(controller);
 
@@ -207,7 +207,7 @@ const scene4 = new ScrollMagic.Scene({
     triggerElement: ".trigger-4",
     triggerHook: "0"
 })
-.addIndicators()
+// .addIndicators()
 .setTween(tl4)
 .addTo(controller);
 
@@ -215,7 +215,7 @@ const scene5 = new ScrollMagic.Scene({
     triggerElement: ".trigger-5",
     triggerHook: "0"
 })
-.addIndicators()
+// .addIndicators()
 .setTween(tl5)
 .addTo(controller);
 
@@ -224,7 +224,7 @@ const timelineScene = new ScrollMagic.Scene({
     triggerHook: "0",
     duration: "90%"
 })
-.addIndicators()
+// .addIndicators()
 .setPin(".trigger-date")
 .setTween(td1)
 .addTo(controller);
@@ -238,8 +238,8 @@ function updatePercentage() {
 
 $(document).ready(function() {
     $('.jR3DCarouselGalleryCustom').jR3DCarousel({
-        width: 500,
-        height: 500,
+        width: 700,
+        height: 700,
         slideLayout: 'contain',
         animation: 'slide3D',
         animationCurve: 'ease',
@@ -251,36 +251,36 @@ $(document).ready(function() {
 });
 
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-    $(window).scroll(function(e){
-        var scrollTop = $(window).scrollTop();
-        var docHeight = $(document).height();
-        var winHeight = $(window).height();
-        var scrollPercent = (scrollTop) / (docHeight - winHeight);
-        var scrollPercentRounded = Math.round(scrollPercent*100);
+//     $(window).scroll(function(e){
+//         var scrollTop = $(window).scrollTop();
+//         var docHeight = $(document).height();
+//         var winHeight = $(window).height();
+//         var scrollPercent = (scrollTop) / (docHeight - winHeight);
+//         var scrollPercentRounded = Math.round(scrollPercent*100);
 
-        console.log('scrollTop : ' + scrollTop);
-        console.log('docHeight : ' + docHeight);
-        console.log('winHeight : ' + winHeight);
-        console.log('scrollPercent : ' + scrollPercent);
-        console.log('scrollPercentRounded : ' + scrollPercentRounded);
-        $('#scrollPercentLabel>span').html(scrollPercentRounded);
-        repositionLabel();
-    });
+//         console.log('scrollTop : ' + scrollTop);
+//         console.log('docHeight : ' + docHeight);
+//         console.log('winHeight : ' + winHeight);
+//         console.log('scrollPercent : ' + scrollPercent);
+//         console.log('scrollPercentRounded : ' + scrollPercentRounded);
+//         $('#scrollPercentLabel>span').html(scrollPercentRounded);
+//         repositionLabel();
+//     });
 
-    $(window).resize(function(){
-        repositionLabel();
-    });
+//     $(window).resize(function(){
+//         repositionLabel();
+//     });
 
-    function repositionLabel() {
-        $('#scrollPercentLabel').css({
-            position:'fixed',
-            left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
-            top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
-        });
-    }
+//     function repositionLabel() {
+//         $('#scrollPercentLabel').css({
+//             position:'fixed',
+//             left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
+//             top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
+//         });
+//     }
 
-    repositionLabel();
+//     repositionLabel();
 
-});
+// });
