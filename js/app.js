@@ -10,7 +10,7 @@ let height = screen.height;
 let homeAnchor = 0.01;
 let aboutAnchor = 0.15;
 let projectsAnchor = 0.3;
-let timelineAnchor = 0.42;
+let timelineAnchor = 0.45;
 let contactAnchor = 100;
 
 // Nav Bar Functions
