@@ -293,7 +293,8 @@ body,
 .tile-container:hover .middle {
     opacity: 1;
 }
-.project-info button {
+.project-info button,
+.btn {
     border: 1px solid #006caf;
     border-radius: 5px;
     font-size: 0.9em;
