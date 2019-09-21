@@ -42,19 +42,19 @@ function scrollTo(anchor) {
 // $("#about-link").click(scrollTo(aboutAnchor));
 
 $(".home-link").click(function() {
-    scrollTo(homeAnchor)
+    scrollTo(homeAnchor);
 });
 $("#about-link").click(function() {
-    scrollTo(aboutAnchor)
+    scrollTo(aboutAnchor);
 });
 $("#projects-link").click(function() {
-    scrollTo(projectsAnchor)
+    scrollTo(projectsAnchor);
 });
 $("#timeline-link").click(function() {
-    scrollTo(timelineAnchor)
+    scrollTo(timelineAnchor);
 });
 $("#contact-link").click(function() {
-    scrollTo(contactAnchor)
+    scrollTo(contactAnchor);
 });
 
 $(".closebtn").click(closeNav);
@@ -69,7 +69,7 @@ let tl2 = new TimelineMax();
 let tl3 = new TimelineMax();
 let tl4 = new TimelineMax();
 let tl5 = new TimelineMax();
-let tl6 = new TimelineMax();
+
 
 let td1 = new TimelineMax({onUpdate:updatePercentage});
 
@@ -171,8 +171,8 @@ td1.to('#year-17', 0.5, {opacity: 0, y: -60}, 44.5);
 
 // 2018
 td1.from('#year-18', 0.5, {opacity: 0, y: 50},45.5);
-td1.to('#vw', 1.5, {opacity: 0, x: width}, 46.5)
-td1.from('#paycircle', 2, {opacity: 0, x: -width, scale: 0}, 46.5)
+td1.to('#vw', 1.5, {opacity: 0, x: width}, 46.5);
+td1.from('#paycircle', 2, {opacity: 0, x: -width, scale: 0}, 46.5);
 td1.to('#year-18', 0.5, {opacity: 0, y: -60}, 49);
 
 // 2019
