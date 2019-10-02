@@ -213,7 +213,7 @@ const scene4 = new ScrollMagic.Scene({
     triggerElement: ".trigger-4",
     triggerHook: "0"
 })
-.addIndicators()
+// .addIndicators()
 .setTween(tl4)
 .addTo(controller);
 
@@ -221,7 +221,7 @@ const scene5 = new ScrollMagic.Scene({
     triggerElement: ".trigger-5",
     triggerHook: "0"
 })
-.addIndicators()
+// .addIndicators()
 .setTween(tl5)
 .addTo(controller);
 
@@ -230,7 +230,7 @@ const timelineScene = new ScrollMagic.Scene({
     triggerHook: "0",
     duration: "550%"
 })
-.addIndicators()
+// .addIndicators()
 .setPin(".trigger-date")
 .setTween(td1)
 .addTo(controller);
@@ -257,36 +257,36 @@ $(document).ready(function() {
 });
 
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-    $(window).scroll(function(e){
-        var scrollTop = $(window).scrollTop();
-        var docHeight = $(document).height();
-        var winHeight = $(window).height();
-        var scrollPercent = (scrollTop) / (docHeight - winHeight);
-        var scrollPercentRounded = Math.round(scrollPercent*100);
+//     $(window).scroll(function(e){
+//         var scrollTop = $(window).scrollTop();
+//         var docHeight = $(document).height();
+//         var winHeight = $(window).height();
+//         var scrollPercent = (scrollTop) / (docHeight - winHeight);
+//         var scrollPercentRounded = Math.round(scrollPercent*100);
 
-        console.log('scrollTop : ' + scrollTop);
-        console.log('docHeight : ' + docHeight);
-        console.log('winHeight : ' + winHeight);
-        console.log('scrollPercent : ' + scrollPercent);
-        console.log('scrollPercentRounded : ' + scrollPercentRounded);
-        $('#scrollPercentLabel>span').html(scrollPercentRounded);
-        repositionLabel();
-    });
+//         console.log('scrollTop : ' + scrollTop);
+//         console.log('docHeight : ' + docHeight);
+//         console.log('winHeight : ' + winHeight);
+//         console.log('scrollPercent : ' + scrollPercent);
+//         console.log('scrollPercentRounded : ' + scrollPercentRounded);
+//         $('#scrollPercentLabel>span').html(scrollPercentRounded);
+//         repositionLabel();
+//     });
 
-    $(window).resize(function(){
-        repositionLabel();
-    });
+//     $(window).resize(function(){
+//         repositionLabel();
+//     });
 
-    function repositionLabel() {
-        $('#scrollPercentLabel').css({
-            position:'fixed',
-            left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
-            top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
-        });
-    }
+//     function repositionLabel() {
+//         $('#scrollPercentLabel').css({
+//             position:'fixed',
+//             left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
+//             top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
+//         });
+//     }
 
-    repositionLabel();
+//     repositionLabel();
 
-});
+// });
