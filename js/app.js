@@ -10,7 +10,7 @@ let height = screen.height;
 let homeAnchor = 0.01;
 let aboutAnchor = 0.15;
 let projectsAnchor = 0.3;
-let timelineAnchor = 0.45;
+let timelineAnchor = 0.38;
 let contactAnchor = 100;
 
 // Nav Bar Functions
@@ -99,86 +99,86 @@ tl5.from('#contact', 1, {opacity: 0, x: -width});
 // Timeline Trigger Points
 // Uni Days
 // 2010
-td1.from('#year-10', 0.5, {opacity: 0, y: 60});
-td1.from('#notes', 2, {opacity: 0, x: -width, scale: 0}, 3);
-td1.from('#acm', 2, {opacity: 0, x: width}, 3);
-td1.to('#year-10', 0.5, {opacity: 0, y: -60}, 5);
+td1.from('#year-10', 1, {opacity: 0, y: 60});
+td1.from('#notes', 4, {opacity: 0, x: -width, scale: 0}, 6);
+td1.from('#acm', 4, {opacity: 0, x: width}, 6);
+td1.to('#year-10', 1, {opacity: 0, y: -60}, 10);
 
 // 2011
-td1.from('#year-11', 0.5, {opacity: 0, y: 50}, 6);
-td1.to('#notes', 1.5, {opacity: 0, x: width}, 6);
-td1.from('#guitar', 2, {opacity: 0, x: -width, scale: 0}, 6);
-td1.to('#year-11', 0.5, {opacity: 0, y: -60}, 9);
+td1.from('#year-11', 1, {opacity: 0, y: 50}, 12);
+td1.to('#notes', 3, {opacity: 0, x: width}, 12);
+td1.from('#guitar', 4, {opacity: 0, x: -width, scale: 0}, 12);
+td1.to('#year-11', 1, {opacity: 0, y: -60}, 18);
 
 // 2012
-td1.from('#year-12', 0.5, {opacity: 0, y: 50}, 10);
-td1.to('#guitar', 1.5, {opacity: 0, x: width}, 10);
-td1.from('#electric-guitar', 2, {opacity: 0, x: -width, scale: 0}, 10);
-td1.to('#year-12', 0.5, {opacity: 0, y: -60}, 13);
+td1.from('#year-12', 1, {opacity: 0, y: 50}, 20);
+td1.to('#guitar', 3, {opacity: 0, x: width}, 20);
+td1.from('#electric-guitar', 4, {opacity: 0, x: -width, scale: 0}, 20);
+td1.to('#year-12', 1, {opacity: 0, y: -60}, 26);
 
 // 2013
-td1.from('#year-13', 0.5, {opacity: 0, y: 50}, 14);
-td1.to('#electric-guitar', 1.5, {opacity: 0, x: width}, 14);
-td1.from('#band', 2, {opacity: 0, x: -width, scale: 0}, 14);
-td1.from('.lights', 1.5, {opacity: 0, scale: 0, y: -height}, 14);
-td1.to('#year-13', 0.5, {opacity: 0, y: -60}, 17);
+td1.from('#year-13', 1, {opacity: 0, y: 50}, 28);
+td1.to('#electric-guitar', 3, {opacity: 0, x: width}, 28);
+td1.from('#band', 4, {opacity: 0, x: -width, scale: 0}, 28);
+td1.from('.lights', 3, {opacity: 0, scale: 0, y: -height}, 28);
+td1.to('#year-13', 1, {opacity: 0, y: -60}, 34);
 
 // 2014
-td1.from('#year-14', 0.5, {opacity: 0, y: 50}, 18);
-td1.to('#band', 1.5, {opacity: 0, x: width}, 18);
-td1.from('#hat', 2, {opacity: 0, y: -height}, 18);
-td1.from('#diploma', 2, {opacity: 0, scale: 0, y: height}, 18);
-td1.to('#acm', 1.5, {opacity: 0, x: -width}, 21);
-td1.to('#hat', 1.5, {opacity: 0, scale: 4}, 21);
-td1.to('#diploma', 1.5, {opacity: 0, scale: 3}, 21);
-td1.to('.lights', 1.5, {scale: 0}, 21);
-td1.to('#year-14', 0.5, {opacity: 0, y: -60}, 21);
+td1.from('#year-14', 1, {opacity: 0, y: 50}, 36);
+td1.to('#band', 3, {opacity: 0, x: width}, 36);
+td1.from('#hat', 4, {opacity: 0, y: -height}, 36);
+td1.from('#diploma', 4, {opacity: 0, scale: 0, y: height}, 36);
+td1.to('#acm', 3, {opacity: 0, x: -width}, 42);
+td1.to('#hat', 3, {opacity: 0, scale: 4}, 42);
+td1.to('#diploma', 3, {opacity: 0, scale: 3}, 42);
+td1.to('.lights', 3, {scale: 0}, 42);
+td1.to('#year-14', 1, {opacity: 0, y: -60}, 42);
 
 
 
 // Ireland Days
 
 // 2015
-td1.from('#year-15', 1.5, {opacity: 0, y: 50}, 22);
-td1.from('#rainbow', 2, {opacity: 0, scale: 0, y: height}, 22);
-td1.from('#clover', 2, {opacity: 0, scale: 0, y: height}, 22);
-td1.from('#gold', 2, {opacity: 0, scale: 0, y: height}, 22);
-td1.from('#plane', 5, {x: -(2*width), scale: 0}, 22);
-td1.from('#flag', 5, {x: -width, scale: 0},22);
-td1.from('#new-world', 2, {opacity: 0, scale: 0, x: width}, 26.5);
-td1.from('#wax', 2, {opacity: 0, scale: 0, y: -height}, 28.5);
-td1.from('#rock', 2, {opacity: 0, scale: 0, x: -width}, 30.5);
-td1.to('#year-15', 0.5, {opacity: 0, y: -60}, 33.5);
+td1.from('#year-15', 3, {opacity: 0, y: 50}, 44);
+td1.from('#rainbow', 4, {opacity: 0, scale: 0, y: height}, 44);
+td1.from('#clover', 4, {opacity: 0, scale: 0, y: height}, 44);
+td1.from('#gold', 4, {opacity: 0, scale: 0, y: height}, 44);
+td1.from('#plane', 10, {x: -(2*width), scale: 0}, 44);
+td1.from('#flag', 10, {x: -width, scale: 0},44);
+td1.from('#new-world', 4, {opacity: 0, scale: 0, x: width}, 53);
+td1.from('#wax', 4, {opacity: 0, scale: 0, y: -height}, 57);
+td1.from('#rock', 4, {opacity: 0, scale: 0, x: -width}, 61);
+td1.to('#year-15', 1, {opacity: 0, y: -60}, 67);
 
 // 2016
-td1.from('#year-16', 0.5, {opacity: 0, y: 50}, 34.5);
-td1.to('#year-16', 0.5, {opacity: 0, y: -60}, 36.5);
+td1.from('#year-16', 1, {opacity: 0, y: 50}, 69);
+td1.to('#year-16', 1, {opacity: 0, y: -60}, 73);
 
 // 2017
-td1.from('#year-17', 0.5, {opacity: 0, y: 50}, 37.5);
-td1.to('#rainbow', 1.5, {opacity: 0, x: -width}, 37.5);
-td1.to('#clover', 1.5, {opacity: 0, x: -width}, 37.5);
-td1.to('#gold', 1.5, {opacity: 0, x: -width}, 37.5);
-td1.to('#flag', 1.5, {opacity: 0, x: -width}, 37.5);
-td1.to('#new-world', 1.5, {opacity: 0, x: -width}, 37.5);
-td1.to('#wax', 1.5, {opacity: 0, x: -width}, 37.5);
-td1.to('#rock', 1.5, {opacity: 0, x: -width}, 37.5);
-td1.from('#boat', 5, {x: (2*width)}, 37.5);
-td1.from('#england', 5, {x: (2*width)}, 37.5);
-td1.from('#vw', 2, {opacity: 0, scale: 0, y: height}, 42.5);
-td1.to('#england', 0.5, {opacity: 0}, 43.5);
-td1.to('#year-17', 0.5, {opacity: 0, y: -60}, 44.5);
+td1.from('#year-17', 1, {opacity: 0, y: 50}, 75);
+td1.to('#rainbow', 3, {opacity: 0, x: -width}, 75);
+td1.to('#clover', 3, {opacity: 0, x: -width}, 75);
+td1.to('#gold', 3, {opacity: 0, x: -width}, 75);
+td1.to('#flag', 3, {opacity: 0, x: -width}, 75);
+td1.to('#new-world', 3, {opacity: 0, x: -width}, 75);
+td1.to('#wax', 3, {opacity: 0, x: -width}, 75);
+td1.to('#rock', 3, {opacity: 0, x: -width}, 75);
+td1.from('#boat', 10, {x: (2*width)}, 75);
+td1.from('#england', 10, {x: (2*width)}, 75);
+td1.from('#vw', 4, {opacity: 0, scale: 0, y: height}, 85);
+td1.to('#england', 1, {opacity: 0}, 87);
+td1.to('#year-17', 1, {opacity: 0, y: -60}, 89);
 
 // 2018
-td1.from('#year-18', 0.5, {opacity: 0, y: 50},45.5);
-td1.to('#vw', 1.5, {opacity: 0, x: width}, 46.5);
-td1.from('#paycircle', 2, {opacity: 0, x: -width, scale: 0}, 46.5);
-td1.to('#year-18', 0.5, {opacity: 0, y: -60}, 49);
+td1.from('#year-18', 1, {opacity: 0, y: 50}, 91);
+td1.to('#vw', 3, {opacity: 0, x: width}, 93);
+td1.from('#paycircle', 4, {opacity: 0, x: -width, scale: 0}, 93);
+td1.to('#year-18', 1, {opacity: 0, y: -60}, 98);
 
 // 2019
-td1.from('#year-19', 0.5, {opacity: 0, y: 50}, 50);
-td1.to('#paycircle', 1.5, {opacity: 0, scale: 0}, 51);
-td1.from('#treehouse', 2, {opacity: 0, scale: 0, y: -height}, 51);
+td1.from('#year-19', 1, {opacity: 0, y: 50}, 100);
+td1.to('#paycircle', 3, {opacity: 0, scale: 0}, 102);
+td1.from('#treehouse', 4, {opacity: 0, scale: 0, y: -height}, 102);
 
 tl5.to('#email', 1, {opacity: 0}, 0);
 tl5.from('#email-2', 1, {opacity: 0, scale: 0, y: height}, 0);
@@ -213,7 +213,7 @@ const scene4 = new ScrollMagic.Scene({
     triggerElement: ".trigger-4",
     triggerHook: "0"
 })
-// .addIndicators()
+.addIndicators()
 .setTween(tl4)
 .addTo(controller);
 
@@ -221,16 +221,16 @@ const scene5 = new ScrollMagic.Scene({
     triggerElement: ".trigger-5",
     triggerHook: "0"
 })
-// .addIndicators()
+.addIndicators()
 .setTween(tl5)
 .addTo(controller);
 
 const timelineScene = new ScrollMagic.Scene({
     triggerElement: ".trigger-date", 
     triggerHook: "0",
-    duration: "90%"
+    duration: "550%"
 })
-// .addIndicators()
+.addIndicators()
 .setPin(".trigger-date")
 .setTween(td1)
 .addTo(controller);
@@ -257,36 +257,36 @@ $(document).ready(function() {
 });
 
 
-// $(document).ready(function() {
+$(document).ready(function() {
 
-//     $(window).scroll(function(e){
-//         var scrollTop = $(window).scrollTop();
-//         var docHeight = $(document).height();
-//         var winHeight = $(window).height();
-//         var scrollPercent = (scrollTop) / (docHeight - winHeight);
-//         var scrollPercentRounded = Math.round(scrollPercent*100);
+    $(window).scroll(function(e){
+        var scrollTop = $(window).scrollTop();
+        var docHeight = $(document).height();
+        var winHeight = $(window).height();
+        var scrollPercent = (scrollTop) / (docHeight - winHeight);
+        var scrollPercentRounded = Math.round(scrollPercent*100);
 
-//         console.log('scrollTop : ' + scrollTop);
-//         console.log('docHeight : ' + docHeight);
-//         console.log('winHeight : ' + winHeight);
-//         console.log('scrollPercent : ' + scrollPercent);
-//         console.log('scrollPercentRounded : ' + scrollPercentRounded);
-//         $('#scrollPercentLabel>span').html(scrollPercentRounded);
-//         repositionLabel();
-//     });
+        console.log('scrollTop : ' + scrollTop);
+        console.log('docHeight : ' + docHeight);
+        console.log('winHeight : ' + winHeight);
+        console.log('scrollPercent : ' + scrollPercent);
+        console.log('scrollPercentRounded : ' + scrollPercentRounded);
+        $('#scrollPercentLabel>span').html(scrollPercentRounded);
+        repositionLabel();
+    });
 
-//     $(window).resize(function(){
-//         repositionLabel();
-//     });
+    $(window).resize(function(){
+        repositionLabel();
+    });
 
-//     function repositionLabel() {
-//         $('#scrollPercentLabel').css({
-//             position:'fixed',
-//             left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
-//             top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
-//         });
-//     }
+    function repositionLabel() {
+        $('#scrollPercentLabel').css({
+            position:'fixed',
+            left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
+            top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
+        });
+    }
 
-//     repositionLabel();
+    repositionLabel();
 
-// });
+});

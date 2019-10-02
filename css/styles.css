@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+#wrapper {
+    height: 1000vh;
+}
+
 /* ---------------------------------------- */
 /* - Correct for sticky header and footer - */
 /* ---------------------------------------- */
@@ -565,23 +569,28 @@ h2 {
 }
 .trigger-2 {
     position: absolute;
-    top: 30%;
+    /* top: 30%; */
+    top: 100vh;
 }
 .trigger-3 {
     position: absolute;
-    top: 60%;
+    /* top: 60%; */
+    top: 200vh;
 }
 .trigger-4 {
     position: absolute;
-    top: 90%;
+    /* top: 90%; */
+    top: 300vh;
 }
 .trigger-date {
     position: absolute;
-    top: 100%;
+    /* top: 100%; */
+    top: 320vh;
 }
 .trigger-5 {
     position: absolute;
-    top: 200%;
+    /* top: 200%; */
+    top: 900vh;
 }
 
 /* All sections have a 100% screen size height */
